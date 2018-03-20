@@ -9,6 +9,11 @@
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -19,8 +24,12 @@
 
 <body>
   <script src="js/scripts.js"></script>
-   <a href = "#NaiveBayesian">Naive Bayes</a>
-  <a href = "LogisticsRegression">Logistics Regression</a>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href = "#NaiveBayesian">Naive Bayes</a></li>
+        <li><a href = "#LogisticsRegression">Logistics Regression</a></li>
+      </ul>
+  </div>
   
     
 <div id="NaiveBayesian">
@@ -36,9 +45,11 @@
 <img src="NB_Graph-Multiclass-Box.jpg" alt="Naive Bayes Results" width="70%" height="100%">
 </div>
 
+<div id="LogisticsRegression">
 <h2>Results for Logistic Regression Algorithm</h2>
 <img src="LR_Graph-Binary.jpg" alt="Naive Bayes Results" width="70%" height="100%">
 
 <img src="LR_Graph-Box.jpg" alt="Naive Bayes Results" width="70%" height="100%">
+ </div>
 </body>
 </html>
